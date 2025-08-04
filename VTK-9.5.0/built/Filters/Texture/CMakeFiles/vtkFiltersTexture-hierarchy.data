@@ -1,0 +1,8 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkImplicitTextureCoords.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkScalarsToTextureFilter.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkTextureMapToCylinder.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkTextureMapToPlane.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkTextureMapToSphere.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkThresholdTextureCoords.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkTransformTextureCoords.h;vtkFiltersTexture
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Filters/Texture/vtkTriangularTCoords.h;vtkFiltersTexture

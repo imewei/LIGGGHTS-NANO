@@ -1,0 +1,5 @@
+vtkRenderingLOD
+vtkLODActor
+vtkQuadricLODActor
+DEPENDS
+vtkmodules.vtkRenderingCore

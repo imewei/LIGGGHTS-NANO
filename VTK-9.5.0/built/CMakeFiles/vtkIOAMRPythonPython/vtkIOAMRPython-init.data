@@ -1,0 +1,15 @@
+vtkIOAMR
+vtkAMRBaseParticlesReader
+vtkAMRBaseReader
+vtkAMRDataSetCache
+vtkAMREnzoParticlesReader
+vtkAMREnzoReader
+vtkAMReXGridReader
+vtkAMReXParticlesReader
+vtkAMRFlashParticlesReader
+vtkAMRFlashReader
+vtkAMRVelodyneReader
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel

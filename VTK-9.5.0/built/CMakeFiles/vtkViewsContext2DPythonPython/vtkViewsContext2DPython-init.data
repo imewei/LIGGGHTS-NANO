@@ -1,0 +1,7 @@
+vtkViewsContext2D
+vtkContextInteractorStyle
+vtkContextView
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkRenderingCore
+vtkmodules.vtkViewsCore

@@ -1,0 +1,6 @@
+vtkIOExportPDF
+vtkPDFContextDevice2D
+vtkPDFExporter
+DEPENDS
+vtkmodules.vtkIOExport
+vtkmodules.vtkRenderingContext2D

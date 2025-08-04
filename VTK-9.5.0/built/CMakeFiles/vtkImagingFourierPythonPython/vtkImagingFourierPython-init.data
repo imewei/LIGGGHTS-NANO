@@ -1,0 +1,13 @@
+vtkImagingFourier
+vtkImageButterworthHighPass
+vtkImageButterworthLowPass
+vtkImageFFT
+vtkImageFourierCenter
+vtkImageFourierFilter
+vtkImageIdealHighPass
+vtkImageIdealLowPass
+vtkImageRFFT
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkImagingCore

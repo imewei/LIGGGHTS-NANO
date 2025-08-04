@@ -1,0 +1,4 @@
+vtkIOLANLX3D
+vtkLANLX3DReader
+DEPENDS
+vtkmodules.vtkFiltersCore

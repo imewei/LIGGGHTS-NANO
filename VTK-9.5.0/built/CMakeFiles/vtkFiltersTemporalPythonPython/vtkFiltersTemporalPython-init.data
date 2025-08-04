@@ -1,0 +1,7 @@
+vtkFiltersTemporal
+vtkCriticalTime
+vtkForceStaticMesh
+vtkDataObjectMeshCache
+vtkTemporalSmoothing
+DEPENDS
+vtkmodules.vtkFiltersCore

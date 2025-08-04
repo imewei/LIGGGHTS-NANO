@@ -1,0 +1,6 @@
+vtkImagingStatistics
+vtkImageAccumulate
+vtkImageHistogram
+vtkImageHistogramStatistics
+DEPENDS
+vtkmodules.vtkCommonExecutionModel

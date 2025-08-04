@@ -1,0 +1,7 @@
+vtkParallelMPI
+vtkMPICommunicator
+vtkMPIController
+vtkMPIUtilities
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkParallelCore

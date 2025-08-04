@@ -1,0 +1,6 @@
+vtkDomainsChemistryOpenGL2
+vtkOpenGLMoleculeMapper
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkDomainsChemistry
+vtkmodules.vtkRenderingOpenGL2

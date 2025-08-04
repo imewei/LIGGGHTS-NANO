@@ -1,0 +1,16 @@
+vtkIOMINC
+vtkMINC
+vtkMINCImageAttributes
+vtkMINCImageReader
+vtkMINCImageWriter
+vtkMNIObjectReader
+vtkMNIObjectWriter
+vtkMNITagPointReader
+vtkMNITagPointWriter
+vtkMNITransformReader
+vtkMNITransformWriter
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkIOCore
+vtkmodules.vtkIOImage

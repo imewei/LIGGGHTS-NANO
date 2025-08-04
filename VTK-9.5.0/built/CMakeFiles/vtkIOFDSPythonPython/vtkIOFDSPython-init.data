@@ -1,0 +1,6 @@
+vtkIOFDS
+vtkFDSReader
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel

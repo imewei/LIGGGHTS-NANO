@@ -1,0 +1,5 @@
+vtkIOMPIImage
+vtkMPIImageReader
+vtkPNrrdReader
+DEPENDS
+vtkmodules.vtkIOImage

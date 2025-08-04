@@ -1,0 +1,17 @@
+vtkRenderingVolumeOpenGL2
+vtkMultiBlockUnstructuredGridVolumeMapper
+vtkMultiBlockVolumeMapper
+vtkOpenGLGPUVolumeRayCastMapper
+vtkOpenGLProjectedTetrahedraMapper
+vtkOpenGLRayCastImageDisplayHelper
+vtkOpenGLSurfaceProbeVolumeMapper
+vtkSmartVolumeMapper
+vtkVolumeTexture
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkImagingCore
+vtkmodules.vtkImagingMath
+vtkmodules.vtkRenderingCore
+vtkmodules.vtkRenderingOpenGL2
+vtkmodules.vtkRenderingVolume

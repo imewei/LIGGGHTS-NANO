@@ -1,0 +1,5 @@
+vtkRenderingUI
+vtkCocoaRenderWindowInteractor
+vtkGenericRenderWindowInteractor
+DEPENDS
+vtkmodules.vtkRenderingCore

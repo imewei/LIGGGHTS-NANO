@@ -1,0 +1,7 @@
+vtkFiltersSelection
+vtkCellDistanceSelector
+vtkKdTreeSelector
+vtkLinearSelector
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel

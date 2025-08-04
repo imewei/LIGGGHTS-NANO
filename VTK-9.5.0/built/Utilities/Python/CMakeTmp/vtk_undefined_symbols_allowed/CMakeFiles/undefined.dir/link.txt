@@ -1,0 +1,1 @@
+/usr/bin/cc  -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libundefined.dylib -install_name @rpath/libundefined.dylib CMakeFiles/undefined.dir/uses_undefined.c.o

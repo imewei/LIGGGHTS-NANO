@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCImageAttributesPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCImageAttributesPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCImageReaderPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCImageReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCImageWriterPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCImageWriterPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMINCPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNIObjectReaderPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNIObjectReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNIObjectWriterPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNIObjectWriterPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITagPointReaderPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITagPointReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITagPointWriterPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITagPointWriterPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITransformReaderPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITransformReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITransformWriterPython.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPython/vtkMNITransformWriterPython.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPythonPython/vtkIOMINCPythonInit.cxx.o"
+  "CMakeFiles/vtkIOMINCPython.dir/CMakeFiles/vtkIOMINCPythonPython/vtkIOMINCPythonInit.cxx.o.d"
+  "CMakeFiles/vtkIOMINCPython/vtkMINCImageAttributesPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMINCImageReaderPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMINCImageWriterPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMINCPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMNIObjectReaderPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMNIObjectWriterPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMNITagPointReaderPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMNITagPointWriterPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMNITransformReaderPython.cxx"
+  "CMakeFiles/vtkIOMINCPython/vtkMNITransformWriterPython.cxx"
+  "CMakeFiles/vtkIOMINCPythonPython/vtkIOMINCPythonInit.cxx"
+  "lib/python3.9/site-packages/vtkmodules/vtkIOMINC.cpython-39-darwin.pdb"
+  "lib/python3.9/site-packages/vtkmodules/vtkIOMINC.cpython-39-darwin.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vtkIOMINCPython.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,4 @@
+vtkRenderingGL2PSOpenGL2
+vtkOpenGLGL2PSHelperImpl
+DEPENDS
+vtkmodules.vtkRenderingOpenGL2

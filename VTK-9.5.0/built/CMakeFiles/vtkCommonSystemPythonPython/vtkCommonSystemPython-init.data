@@ -1,0 +1,10 @@
+vtkCommonSystem
+vtkClientSocket
+vtkDirectory
+vtkExecutableRunner
+vtkServerSocket
+vtkSocket
+vtkSocketCollection
+vtkTimerLog
+DEPENDS
+vtkmodules.vtkCommonCore

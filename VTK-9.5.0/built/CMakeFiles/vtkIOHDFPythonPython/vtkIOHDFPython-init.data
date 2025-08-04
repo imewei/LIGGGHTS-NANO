@@ -1,0 +1,9 @@
+vtkIOHDF
+vtkHDFReader
+vtkHDFWriter
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkFiltersCore
+vtkmodules.vtkIOCore

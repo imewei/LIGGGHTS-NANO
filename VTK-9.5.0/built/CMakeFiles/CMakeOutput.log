@@ -1,0 +1,202 @@
+Checking whether wstring is available compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_46e69/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_46e69.dir/build.make CMakeFiles/cmTC_46e69.dir/build
+Building CXX object CMakeFiles/cmTC_46e69.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_STL_HAS_WSTRING  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_46e69.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_46e69.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_46e69.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_46e69
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e69.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_46e69.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_46e69
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_45d1e/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_45d1e.dir/build.make CMakeFiles/cmTC_45d1e.dir/build
+Building C object CMakeFiles/cmTC_45d1e.dir/kwsysPlatformTestsC.c.o
+/usr/bin/cc -DTEST_KWSYS_C_HAS_PTRDIFF_T  -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_45d1e.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_45d1e.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_45d1e.dir/kwsysPlatformTestsC.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsC.c
+Linking C executable cmTC_45d1e
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45d1e.dir/link.txt --verbose=1
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_45d1e.dir/kwsysPlatformTestsC.c.o -o cmTC_45d1e
+
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a0827/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a0827.dir/build.make CMakeFiles/cmTC_a0827.dir/build
+Building C object CMakeFiles/cmTC_a0827.dir/kwsysPlatformTestsC.c.o
+/usr/bin/cc -DTEST_KWSYS_C_HAS_SSIZE_T  -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_a0827.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_a0827.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_a0827.dir/kwsysPlatformTestsC.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsC.c
+Linking C executable cmTC_a0827
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0827.dir/link.txt --verbose=1
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a0827.dir/kwsysPlatformTestsC.c.o -o cmTC_a0827
+
+
+
+Checking whether C compiler has clock_gettime compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba7d8/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ba7d8.dir/build.make CMakeFiles/cmTC_ba7d8.dir/build
+Building C object CMakeFiles/cmTC_ba7d8.dir/kwsysPlatformTestsC.c.o
+/usr/bin/cc -DTEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC  -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_ba7d8.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_ba7d8.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_ba7d8.dir/kwsysPlatformTestsC.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsC.c
+Linking C executable cmTC_ba7d8
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba7d8.dir/link.txt --verbose=1
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ba7d8.dir/kwsysPlatformTestsC.c.o -o cmTC_ba7d8
+
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_59ce4/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_59ce4.dir/build.make CMakeFiles/cmTC_59ce4.dir/build
+Building CXX object CMakeFiles/cmTC_59ce4.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_SETENV  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_59ce4.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_59ce4.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_59ce4.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_59ce4
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ce4.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_59ce4.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_59ce4
+
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17b61/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_17b61.dir/build.make CMakeFiles/cmTC_17b61.dir/build
+Building CXX object CMakeFiles/cmTC_17b61.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UNSETENV  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_17b61.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_17b61.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_17b61.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_17b61
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17b61.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_17b61.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_17b61
+
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55fb1/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_55fb1.dir/build.make CMakeFiles/cmTC_55fb1.dir/build
+Building CXX object CMakeFiles/cmTC_55fb1.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMES  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_55fb1.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_55fb1.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_55fb1.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_55fb1
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55fb1.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_55fb1.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_55fb1
+
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f9943/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f9943.dir/build.make CMakeFiles/cmTC_f9943.dir/build
+Building CXX object CMakeFiles/cmTC_f9943.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMENSAT  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_f9943.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_f9943.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_f9943.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_f9943
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9943.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f9943.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_f9943
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9dd6c/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9dd6c.dir/build.make CMakeFiles/cmTC_9dd6c.dir/build
+Building CXX object CMakeFiles/cmTC_9dd6c.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_9dd6c.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_9dd6c.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_9dd6c.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_9dd6c
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dd6c.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9dd6c.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_9dd6c
+
+
+
+Checking whether backtrace works with this C++ compiler compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bd5c6/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bd5c6.dir/build.make CMakeFiles/cmTC_bd5c6.dir/build
+Building CXX object CMakeFiles/cmTC_bd5c6.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_BACKTRACE  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_bd5c6.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_bd5c6.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_bd5c6.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_bd5c6
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd5c6.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bd5c6.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_bd5c6
+
+
+
+Checking whether dladdr works with this C++ compiler compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25ae7/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25ae7.dir/build.make CMakeFiles/cmTC_25ae7.dir/build
+Building CXX object CMakeFiles/cmTC_25ae7.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_DLADDR  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_25ae7.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_25ae7.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_25ae7.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_25ae7
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25ae7.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_25ae7.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_25ae7
+
+
+
+Checking whether cxxabi works with this C++ compiler compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6b42/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e6b42.dir/build.make CMakeFiles/cmTC_e6b42.dir/build
+Building CXX object CMakeFiles/cmTC_e6b42.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_CXXABI  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_e6b42.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_e6b42.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_e6b42.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_e6b42
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b42.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e6b42.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_e6b42
+
+
+
+Checking whether CXX compiler has getloadavg compiled with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec2a4/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ec2a4.dir/build.make CMakeFiles/cmTC_ec2a4.dir/build
+Building CXX object CMakeFiles/cmTC_ec2a4.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_GETLOADAVG  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_ec2a4.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_ec2a4.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_ec2a4.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_ec2a4
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec2a4.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ec2a4.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_ec2a4
+
+
+
+Determining if the C++ compiler supports __atomic_add_fetch builtin completed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Common/Core/CMakeTmp/Sync/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4443e/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4443e.dir/build.make CMakeFiles/cmTC_4443e.dir/build
+Building CXX object CMakeFiles/cmTC_4443e.dir/vtkTestSyncBuiltins.cxx.o
+/usr/bin/c++   -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_4443e.dir/vtkTestSyncBuiltins.cxx.o -MF CMakeFiles/cmTC_4443e.dir/vtkTestSyncBuiltins.cxx.o.d -o CMakeFiles/cmTC_4443e.dir/vtkTestSyncBuiltins.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Common/Core/vtkTestSyncBuiltins.cxx
+Linking CXX executable cmTC_4443e
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4443e.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4443e.dir/vtkTestSyncBuiltins.cxx.o -o cmTC_4443e
+
+
+Determining if getsockname accepts socklen_t type  completed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Common/System/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3db43/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3db43.dir/build.make CMakeFiles/cmTC_3db43.dir/build
+Building CXX object CMakeFiles/cmTC_3db43.dir/vtkTestSocklenT.cxx.o
+/usr/bin/c++   -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_3db43.dir/vtkTestSocklenT.cxx.o -MF CMakeFiles/cmTC_3db43.dir/vtkTestSocklenT.cxx.o.d -o CMakeFiles/cmTC_3db43.dir/vtkTestSocklenT.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Common/System/vtkTestSocklenT.cxx
+Linking CXX executable cmTC_3db43
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3db43.dir/link.txt --verbose=1
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3db43.dir/vtkTestSocklenT.cxx.o -o cmTC_3db43
+
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+17;0;
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+17;0;
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+17;0;
+

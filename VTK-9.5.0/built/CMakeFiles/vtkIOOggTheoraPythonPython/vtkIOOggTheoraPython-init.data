@@ -1,0 +1,5 @@
+vtkIOOggTheora
+vtkOggTheoraWriter
+DEPENDS
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkIOMovie

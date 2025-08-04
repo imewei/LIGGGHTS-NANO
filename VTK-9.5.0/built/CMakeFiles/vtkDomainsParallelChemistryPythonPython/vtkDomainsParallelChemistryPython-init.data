@@ -1,0 +1,4 @@
+vtkDomainsParallelChemistry
+vtkPSimpleBondPerceiver
+DEPENDS
+vtkmodules.vtkDomainsChemistry

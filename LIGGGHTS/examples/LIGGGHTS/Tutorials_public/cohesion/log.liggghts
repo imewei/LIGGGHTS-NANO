@@ -1,0 +1,209 @@
+LIGGGHTS (Version LIGGGHTS-PUBLIC 3.8.0, compiled 2025-08-04-02:49:58 by b80985, git commit unknown)
+#Contact model example
+
+atom_style		granular
+atom_modify		map array
+boundary		m m m
+newton			off
+
+communicate		single vel yes
+
+units			si
+
+region			reg block -0.05 0.05 -0.05 0.05 0. 0.15 units box
+create_box		1 reg
+Created orthogonal box = (-0.05 -0.05 0) to (0.05 0.05 0.15)
+  1 by 2 by 2 MPI processor grid
+
+neighbor		0.002 bin
+neigh_modify	delay 0
+
+
+#Material properties required for new pair styles
+
+fix 		m1 all property/global youngsModulus peratomtype 5.e6
+fix 		m2 all property/global poissonsRatio peratomtype 0.45
+fix 		m3 all property/global coefficientRestitution peratomtypepair 1 0.9
+fix 		m4 all property/global coefficientFriction peratomtypepair 1 0.05
+fix 		m5 all property/global characteristicVelocity scalar 2.
+fix 		m6 all property/global cohesionEnergyDensity peratomtypepair 1 300000
+
+#New pair style
+pair_style gran model hertz tangential history cohesion sjkr #Hertzian with cohesion
+pair_coeff	* *
+
+timestep	0.00001
+
+fix			gravi all gravity 9.81 vector 0.0 0.0 -1.0
+
+fix zwalls1 all wall/gran model hertz tangential history primitive type 1  zplane 0.0
+fix zwalls2 all wall/gran model hertz tangential history primitive type 1  zplane 0.15
+fix cylwalls all wall/gran model hertz tangential history primitive type 1  zcylinder 0.05 0. 0.
+
+#region for insertion
+region		bc cylinder z 0.01 0.01 0.025 0.05 0.0603 units box
+group		nve_group region reg
+0 atoms in group nve_group
+
+#distributions for insertion
+fix			pts1 all particletemplate/sphere 15485863 atom_type 1 density constant 2500 radius constant 0.0015
+fix			pdd1 all particledistribution/discrete 15485867 1 pts1 1.0
+
+#particle insertion
+fix		ins nve_group insert/pack seed 32452843 distributiontemplate pdd1 			maxattempt 100 insert_every 3000 overlapcheck yes all_in yes vel constant 0.0 0.0 -0.2 			region bc particles_in_region 250 ntry_mc 10000
+
+#apply nve integration to all particles that are inserted as single particles
+fix		integr nve_group nve/sphere
+
+#output settings, include total thermal energy
+compute			rke all erotate/sphere
+thermo_style	custom step atoms ke c_rke vol
+thermo			1000
+thermo_modify	lost ignore norm no
+
+#insert the first particles so that dump is not empty
+run			1
+Setting up run at Mon Aug  4 03:12:44 2025
+
+INFO: Particle insertion ins: inserting every 3000 steps
+Memory usage per processor = 4.43004 Mbytes
+    Step    Atoms         KinEng            rke         Volume 
+       0        0              0              0         0.0015 
+INFO: Particle insertion ins: inserted 250 particle templates (mass 8.835729e-03) at step 1
+ - a total of 250 particle templates (mass 8.835729e-03) inserted so far.
+       1      250  0.00017680128              0         0.0015 
+Loop time of 0.0009135 on 4 procs for 1 steps with 250 atoms, finish time Mon Aug  4 03:12:44 2025
+
+
+Pair  time (%) = 1.75e-06 (0.191571)
+Neigh time (%) = 5.175e-05 (5.66502)
+Comm  time (%) = 2.225e-05 (2.43569)
+Outpt time (%) = 6.6e-05 (7.22496)
+Other time (%) = 0.00077175 (84.4828)
+
+Nlocal:    62.5 ave 192 max 0 min
+Histogram: 2 0 0 1 0 0 0 0 0 1
+Nghost:    13 ave 27 max 0 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+Neighs:    179 ave 572 max 0 min
+Histogram: 2 0 1 0 0 0 0 0 0 1
+
+Total # of neighbors = 716
+Ave neighs/atom = 2.864
+Neighbor list builds = 1
+Dangerous builds = 0
+dump		dmp all custom/vtk 800 post/cohesion_*.vtk id type type x y z ix iy iz vx vy vz fx fy fz omegax omegay omegaz radius
+
+#insert particles
+run			10000
+Setting up run at Mon Aug  4 03:12:44 2025
+
+Memory usage per processor = 8.09715 Mbytes
+    Step    Atoms         KinEng            rke         Volume 
+       1      250  0.00017680128              0         0.0015 
+    1000      250  0.00039245822              0         0.0015 
+    2000      250  0.00069332013              0         0.0015 
+    3000      250   0.0010792137              0         0.0015 
+INFO: Particle insertion ins: inserted 250 particle templates (mass 8.835729e-03) at step 3001
+ - a total of 500 particle templates (mass 1.767146e-02) inserted so far.
+    4000      500    0.001942597              0         0.0015 
+    5000      500   0.0027994157              0         0.0015 
+    6000      500   0.0038262976              0         0.0015 
+INFO: Particle insertion ins: inserted 250 particle templates (mass 8.835729e-03) at step 6001
+ - a total of 750 particle templates (mass 2.650719e-02) inserted so far.
+    7000      750   0.0054157009              0         0.0015 
+    8000      750   0.0070835712              0         0.0015 
+    9000      750   0.0046095828  0.00025928744         0.0015 
+INFO: Particle insertion ins: inserted 250 particle templates (mass 8.835729e-03) at step 9001
+ - a total of 1000 particle templates (mass 3.534292e-02) inserted so far.
+   10000     1000   0.0057539452  0.00015104603         0.0015 
+   10001     1000    0.005755654  0.00015092727         0.0015 
+Loop time of 0.250584 on 4 procs for 10000 steps with 1000 atoms, finish time Mon Aug  4 03:12:45 2025
+
+
+Pair  time (%) = 0.037365 (14.9111)
+Neigh time (%) = 0.0048315 (1.92809)
+Comm  time (%) = 0.0164532 (6.56595)
+Outpt time (%) = 0.0086185 (3.43936)
+Other time (%) = 0.183316 (73.1555)
+
+Nlocal:    250 ave 760 max 0 min
+Histogram: 2 0 0 1 0 0 0 0 0 1
+Nghost:    52.25 ave 107 max 0 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+Neighs:    714.75 ave 2221 max 0 min
+Histogram: 2 0 1 0 0 0 0 0 0 1
+
+Total # of neighbors = 2859
+Ave neighs/atom = 2.859
+Neighbor list builds = 67
+Dangerous builds = 0
+unfix		ins
+
+#run
+run			50000 upto
+Setting up run at Mon Aug  4 03:12:45 2025
+
+Memory usage per processor = 8.36947 Mbytes
+    Step    Atoms         KinEng            rke         Volume 
+   10001     1000    0.005755654  0.00015092727         0.0015 
+   11000     1000   0.0059104334  0.00022049052         0.0015 
+   12000     1000   0.0042000936  0.00013196085         0.0015 
+   13000     1000   0.0051884839  4.8387694e-05         0.0015 
+   14000     1000   0.0038360328  0.00024370574         0.0015 
+   15000     1000   0.0028959361   5.702262e-05         0.0015 
+   16000     1000    0.003514362  3.9612833e-05         0.0015 
+   17000     1000  0.00049445764  0.00018525172         0.0015 
+   18000     1000  9.8385038e-05  3.4206284e-05         0.0015 
+   19000     1000  7.6887543e-05  2.3141625e-05         0.0015 
+   20000     1000  6.6502258e-05  1.6759846e-05         0.0015 
+   21000     1000  5.7393094e-05  1.3745576e-05         0.0015 
+   22000     1000  4.7557348e-05  1.0294021e-05         0.0015 
+   23000     1000  4.0676807e-05  7.5745883e-06         0.0015 
+   24000     1000  4.2364778e-05  7.0532418e-06         0.0015 
+   25000     1000  4.2451937e-05  6.9516632e-06         0.0015 
+   26000     1000  3.6890278e-05  6.9046715e-06         0.0015 
+   27000     1000  2.8182268e-05  4.7184111e-06         0.0015 
+   28000     1000  2.4645219e-05   3.527468e-06         0.0015 
+   29000     1000  2.1513626e-05  3.5413674e-06         0.0015 
+   30000     1000  2.0362357e-05   3.469927e-06         0.0015 
+   31000     1000  1.5145678e-05  3.0551013e-06         0.0015 
+   32000     1000  1.2664535e-05  2.6092839e-06         0.0015 
+   33000     1000  1.2010982e-05   2.407611e-06         0.0015 
+   34000     1000  1.1999754e-05  2.1713707e-06         0.0015 
+   35000     1000  1.2510118e-05  1.8098439e-06         0.0015 
+   36000     1000  1.2193485e-05  1.6890811e-06         0.0015 
+   37000     1000  1.2415348e-05  1.2946806e-06         0.0015 
+   38000     1000  1.3781309e-05  1.2750228e-06         0.0015 
+   39000     1000  1.1199112e-05   2.203901e-06         0.0015 
+   40000     1000  8.7979575e-06  1.0402188e-06         0.0015 
+   41000     1000   4.955907e-06  9.9767639e-07         0.0015 
+   42000     1000  5.9918003e-06  1.2653367e-06         0.0015 
+   43000     1000  5.8884177e-06  8.1819946e-07         0.0015 
+   44000     1000  4.8888335e-06  6.5533396e-07         0.0015 
+   45000     1000  3.8484997e-06  6.4902883e-07         0.0015 
+   46000     1000  3.0631782e-06  5.9118983e-07         0.0015 
+   47000     1000  2.7299242e-06   5.864428e-07         0.0015 
+   48000     1000  2.7238154e-06  5.9412525e-07         0.0015 
+   49000     1000  3.0662282e-06  5.7698272e-07         0.0015 
+   50000     1000  3.7745219e-06  5.9263755e-07         0.0015 
+Loop time of 7.2442 on 4 procs for 39999 steps with 1000 atoms, finish time Mon Aug  4 03:12:52 2025
+
+
+Pair  time (%) = 2.0722 (28.6049)
+Neigh time (%) = 0.0403835 (0.55746)
+Comm  time (%) = 0.0962432 (1.32856)
+Outpt time (%) = 0.0780763 (1.07778)
+Other time (%) = 4.9573 (68.4313)
+
+Nlocal:    250 ave 745 max 0 min
+Histogram: 2 0 0 1 0 0 0 0 0 1
+Nghost:    52 ave 109 max 0 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+Neighs:    1979.25 ave 5958 max 0 min
+Histogram: 2 0 0 1 0 0 0 0 0 1
+
+Total # of neighbors = 7917
+Ave neighs/atom = 7.917
+Neighbor list builds = 233
+Dangerous builds = 0

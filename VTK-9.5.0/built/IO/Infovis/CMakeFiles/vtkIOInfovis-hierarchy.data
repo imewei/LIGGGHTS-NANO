@@ -1,0 +1,17 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkBiomTableReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkChacoGraphReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkDelimitedTextReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkDIMACSGraphReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkDIMACSGraphWriter.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkFixedWidthTextReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkISIReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkMultiNewickTreeReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkNewickTreeReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkNewickTreeWriter.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkPhyloXMLTreeReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkPhyloXMLTreeWriter.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkRISReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkTemporalDelimitedTextReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkTulipReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkXGMLReader.h;vtkIOInfovis
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/Infovis/vtkXMLTreeReader.h;vtkIOInfovis

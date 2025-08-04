@@ -1,0 +1,14 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkCommunicator.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkDummyCommunicator.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkDummyController.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkFieldDataSerializer.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkMultiProcessController.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkMultiProcessStream.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkPDirectory.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkProcess.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkProcessGroup.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkPSystemTools.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkSocketCommunicator.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkSocketController.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkSubCommunicator.h;vtkParallelCore
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Parallel/Core/vtkSubGroup.h;vtkParallelCore

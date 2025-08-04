@@ -1,0 +1,9 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSight6BinaryReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSight6Reader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSightGoldBinaryReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSightGoldCombinedReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSightGoldReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSightMasterServerReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSightReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkEnSightSOSGoldReader.h;vtkIOEnSight
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/IO/EnSight/vtkGenericEnSightReader.h;vtkIOEnSight

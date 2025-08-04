@@ -1,0 +1,4 @@
+vtkParallelMPI4Py
+vtkMPI4PyCommunicator
+DEPENDS
+vtkmodules.vtkCommonCore

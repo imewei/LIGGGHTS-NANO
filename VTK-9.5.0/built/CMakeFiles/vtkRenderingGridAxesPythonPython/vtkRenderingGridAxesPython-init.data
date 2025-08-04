@@ -1,0 +1,12 @@
+vtkRenderingGridAxes
+vtkGridAxesActor3D
+vtkGridAxesActor2D
+vtkGridAxesHelper
+vtkGridAxesPlaneActor2D
+DEPENDS
+vtkmodules.vtkChartsCore
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkRenderingCore
+vtkmodules.vtkRenderingContext2D

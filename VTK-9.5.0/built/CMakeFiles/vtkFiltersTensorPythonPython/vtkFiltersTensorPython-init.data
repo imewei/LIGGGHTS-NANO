@@ -1,0 +1,6 @@
+vtkFiltersTensor
+vtkTensorPrincipalInvariants
+vtkYieldCriteria
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel

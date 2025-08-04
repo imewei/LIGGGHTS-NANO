@@ -1,0 +1,6 @@
+vtkIOParallelNetCDF
+vtkPNetCDFPOPReader
+vtkPSLACReader
+DEPENDS
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkIONetCDF

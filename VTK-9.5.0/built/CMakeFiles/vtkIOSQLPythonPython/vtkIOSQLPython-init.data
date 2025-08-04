@@ -1,0 +1,17 @@
+vtkIOSQL
+vtkDatabaseToTableReader
+vtkRowQuery
+vtkRowQueryToTable
+vtkSQLDatabase
+vtkSQLDatabaseSchema
+vtkSQLDatabaseTableSource
+vtkSQLiteDatabase
+vtkSQLiteQuery
+vtkSQLiteToTableReader
+vtkSQLQuery
+vtkTableToDatabaseWriter
+vtkTableToSQLiteWriter
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkIOCore

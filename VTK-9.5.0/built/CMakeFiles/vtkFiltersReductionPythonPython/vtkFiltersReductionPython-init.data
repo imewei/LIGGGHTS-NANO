@@ -1,0 +1,10 @@
+vtkFiltersReduction
+vtkToAffineArrayStrategy
+vtkToConstantArrayStrategy
+vtkToImplicitArrayFilter
+vtkToImplicitRamerDouglasPeuckerStrategy
+vtkToImplicitStrategy
+vtkToImplicitTypeErasureStrategy
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel

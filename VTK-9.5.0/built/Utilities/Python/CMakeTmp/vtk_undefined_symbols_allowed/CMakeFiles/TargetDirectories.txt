@@ -1,0 +1,4 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/CMakeFiles/undefined.dir
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/CMakeFiles/undefined_exe.dir
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/CMakeFiles/edit_cache.dir
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/CMakeFiles/rebuild_cache.dir

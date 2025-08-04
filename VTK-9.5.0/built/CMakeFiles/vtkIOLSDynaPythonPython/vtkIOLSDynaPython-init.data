@@ -1,0 +1,9 @@
+vtkIOLSDyna
+LSDynaFamily
+LSDynaMetaData
+vtkLSDynaReader
+vtkLSDynaSummaryParser
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkIOXMLParser

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tokenize.dir/tokenize.cxx.o -o ../../../../bin/tokenize  -Wl,-rpath,/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/lib ../../../../lib/libvtktoken-9.5.9.5.dylib

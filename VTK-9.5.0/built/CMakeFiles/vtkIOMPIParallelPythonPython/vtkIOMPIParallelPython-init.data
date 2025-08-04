@@ -1,0 +1,6 @@
+vtkIOMPIParallel
+vtkMPIMultiBlockPLOT3DReader
+vtkPWindBladeReader
+DEPENDS
+vtkmodules.vtkIOGeometry
+vtkmodules.vtkIOParallel

@@ -1,0 +1,6 @@
+vtkGeovisCore
+vtkGeoProjection
+vtkGeoTransform
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonTransforms

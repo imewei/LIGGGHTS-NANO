@@ -1,0 +1,5 @@
+vtkIOTecplotTable
+vtkTecplotTableReader
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel

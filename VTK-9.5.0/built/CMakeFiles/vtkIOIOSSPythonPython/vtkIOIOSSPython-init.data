@@ -1,0 +1,11 @@
+vtkIOIOSS
+vtkIOSSReader
+vtkIOSSCellGridReader
+vtkIOSSWriter
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkFiltersCellGrid
+vtkmodules.vtkIOCore
+vtkmodules.vtkParallelCore

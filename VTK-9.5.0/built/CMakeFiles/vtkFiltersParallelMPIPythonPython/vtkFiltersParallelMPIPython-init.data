@@ -1,0 +1,12 @@
+vtkFiltersParallelMPI
+vtkDistributedPointCloudFilter
+vtkPExtractGrid
+vtkPExtractRectilinearGrid
+vtkPExtractVOI
+vtkStructuredImplicitConnectivity
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkCommonSystem
+vtkmodules.vtkFiltersExtraction
+vtkmodules.vtkImagingCore

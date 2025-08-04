@@ -1,0 +1,12 @@
+vtkFiltersParallelGeometry
+vtkPConnectivityFilter
+vtkPDistributedDataFilter
+vtkPStructuredGridConnectivity
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonSystem
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkFiltersCore
+vtkmodules.vtkFiltersGeometry
+vtkmodules.vtkFiltersParallel
+vtkmodules.vtkParallelMPI

@@ -1,0 +1,10 @@
+vtkTestingRendering
+vtkMultiBaselineRegressionTest
+vtkTesting
+vtkTestingInteractor
+vtkTestingObjectFactory
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkImagingColor
+vtkmodules.vtkIOXML
+vtkmodules.vtkRenderingCore

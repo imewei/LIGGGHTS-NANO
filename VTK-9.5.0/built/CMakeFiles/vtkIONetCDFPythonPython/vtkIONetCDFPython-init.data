@@ -1,0 +1,16 @@
+vtkIONetCDF
+vtkMPASReader
+vtkNetCDFAccessor
+vtkXArrayAccessor
+vtkNetCDFCAMReader
+vtkNetCDFCFReader
+vtkNetCDFCFWriter
+vtkNetCDFPOPReader
+vtkNetCDFReader
+vtkNetCDFUGRIDReader
+vtkSLACParticleReader
+vtkSLACReader
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkIOCore

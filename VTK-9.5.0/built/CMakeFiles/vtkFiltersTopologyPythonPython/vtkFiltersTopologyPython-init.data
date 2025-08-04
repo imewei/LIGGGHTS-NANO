@@ -1,0 +1,6 @@
+vtkFiltersTopology
+vtkFiberSurface
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel

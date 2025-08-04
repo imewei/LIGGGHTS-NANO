@@ -1,0 +1,4 @@
+vtkPythonContext2D
+vtkPythonItem
+DEPENDS
+vtkmodules.vtkRenderingContext2D

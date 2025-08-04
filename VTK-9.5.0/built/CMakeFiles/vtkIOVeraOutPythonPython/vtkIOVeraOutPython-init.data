@@ -1,0 +1,4 @@
+vtkIOVeraOut
+vtkVeraOutReader
+DEPENDS
+vtkmodules.vtkCommonExecutionModel

@@ -1,0 +1,8 @@
+vtkInteractionImage
+vtkImageViewer
+vtkImageViewer2
+vtkResliceImageViewer
+vtkResliceImageViewerMeasurements
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkRenderingCore

@@ -1,0 +1,4 @@
+vtkFiltersPython
+vtkPythonAlgorithm
+DEPENDS
+vtkmodules.vtkCommonExecutionModel

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRBaseParticlesReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRBaseParticlesReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRBaseReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRBaseReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRDataSetCachePython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRDataSetCachePython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMREnzoParticlesReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMREnzoParticlesReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMREnzoReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMREnzoReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRFlashParticlesReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRFlashParticlesReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRFlashReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRFlashReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRVelodyneReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMRVelodyneReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMReXGridReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMReXGridReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMReXParticlesReaderPython.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPython/vtkAMReXParticlesReaderPython.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPythonPython/vtkIOAMRPythonInit.cxx.o"
+  "CMakeFiles/vtkIOAMRPython.dir/CMakeFiles/vtkIOAMRPythonPython/vtkIOAMRPythonInit.cxx.o.d"
+  "CMakeFiles/vtkIOAMRPython/vtkAMRBaseParticlesReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMRBaseReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMRDataSetCachePython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMREnzoParticlesReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMREnzoReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMRFlashParticlesReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMRFlashReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMRVelodyneReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMReXGridReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPython/vtkAMReXParticlesReaderPython.cxx"
+  "CMakeFiles/vtkIOAMRPythonPython/vtkIOAMRPythonInit.cxx"
+  "lib/python3.9/site-packages/vtkmodules/vtkIOAMR.cpython-39-darwin.pdb"
+  "lib/python3.9/site-packages/vtkmodules/vtkIOAMR.cpython-39-darwin.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vtkIOAMRPython.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

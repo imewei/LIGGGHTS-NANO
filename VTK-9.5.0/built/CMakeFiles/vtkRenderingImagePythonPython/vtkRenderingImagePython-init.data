@@ -1,0 +1,8 @@
+vtkRenderingImage
+vtkDepthImageToPointCloud
+vtkImageResliceMapper
+vtkImageSliceCollection
+vtkImageStack
+DEPENDS
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkRenderingCore

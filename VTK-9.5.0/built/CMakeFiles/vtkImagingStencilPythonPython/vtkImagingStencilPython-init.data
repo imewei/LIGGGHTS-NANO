@@ -1,0 +1,11 @@
+vtkImagingStencil
+vtkImageStencil
+vtkImageStencilToImage
+vtkImageToImageStencil
+vtkImplicitFunctionToImageStencil
+vtkLassoStencilSource
+vtkPolyDataToImageStencil
+vtkROIStencilSource
+DEPENDS
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkImagingCore

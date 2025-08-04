@@ -1,0 +1,7 @@
+vtkIOERF
+vtkHDF5Helper
+vtkERFReader
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonDataModel
+vtkmodules.vtkCommonExecutionModel

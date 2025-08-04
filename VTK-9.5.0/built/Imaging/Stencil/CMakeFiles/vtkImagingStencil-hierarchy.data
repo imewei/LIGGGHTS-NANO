@@ -1,0 +1,7 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkImageStencil.h;vtkImagingStencil
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkImageStencilToImage.h;vtkImagingStencil
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkImageToImageStencil.h;vtkImagingStencil
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h;vtkImagingStencil
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkLassoStencilSource.h;vtkImagingStencil
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkPolyDataToImageStencil.h;vtkImagingStencil
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Imaging/Stencil/vtkROIStencilSource.h;vtkImagingStencil

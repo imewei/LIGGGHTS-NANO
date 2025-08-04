@@ -1,0 +1,11 @@
+vtkImagingMath
+vtkImageDivergence
+vtkImageDotProduct
+vtkImageLogarithmicScale
+vtkImageLogic
+vtkImageMagnitude
+vtkImageMaskBits
+vtkImageMathematics
+vtkImageWeightedSum
+DEPENDS
+vtkmodules.vtkCommonExecutionModel

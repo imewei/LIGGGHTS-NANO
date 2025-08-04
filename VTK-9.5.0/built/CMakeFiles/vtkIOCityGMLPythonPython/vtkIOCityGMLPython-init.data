@@ -1,0 +1,4 @@
+vtkIOCityGML
+vtkCityGMLReader
+DEPENDS
+vtkmodules.vtkCommonExecutionModel

@@ -1,0 +1,36 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkMultiBlockUnstructuredGridVolumeMapperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkMultiBlockUnstructuredGridVolumeMapperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkMultiBlockVolumeMapperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkMultiBlockVolumeMapperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLGPUVolumeRayCastMapperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLGPUVolumeRayCastMapperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLProjectedTetrahedraMapperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLProjectedTetrahedraMapperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLRayCastImageDisplayHelperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLRayCastImageDisplayHelperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLSurfaceProbeVolumeMapperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLSurfaceProbeVolumeMapperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkSmartVolumeMapperPython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkSmartVolumeMapperPython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkVolumeTexturePython.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkVolumeTexturePython.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2PythonPython/vtkRenderingVolumeOpenGL2PythonInit.cxx.o"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/CMakeFiles/vtkRenderingVolumeOpenGL2PythonPython/vtkRenderingVolumeOpenGL2PythonInit.cxx.o.d"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkMultiBlockUnstructuredGridVolumeMapperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkMultiBlockVolumeMapperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLGPUVolumeRayCastMapperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLProjectedTetrahedraMapperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLRayCastImageDisplayHelperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkOpenGLSurfaceProbeVolumeMapperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkSmartVolumeMapperPython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2Python/vtkVolumeTexturePython.cxx"
+  "CMakeFiles/vtkRenderingVolumeOpenGL2PythonPython/vtkRenderingVolumeOpenGL2PythonInit.cxx"
+  "lib/python3.9/site-packages/vtkmodules/vtkRenderingVolumeOpenGL2.cpython-39-darwin.pdb"
+  "lib/python3.9/site-packages/vtkmodules/vtkRenderingVolumeOpenGL2.cpython-39-darwin.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vtkRenderingVolumeOpenGL2Python.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

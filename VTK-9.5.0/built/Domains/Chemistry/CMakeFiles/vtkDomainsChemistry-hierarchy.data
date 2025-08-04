@@ -1,0 +1,12 @@
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkBlueObeliskData.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkBlueObeliskDataParser.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkMoleculeMapper.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkMoleculeToBondStickFilter.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkMoleculeToLinesFilter.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkPeriodicTable.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkPointSetToMoleculeFilter.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkProgrammableElectronicData.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkProteinRibbonFilter.h;vtkDomainsChemistry
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Domains/Chemistry/vtkSimpleBondPerceiver.h;vtkDomainsChemistry

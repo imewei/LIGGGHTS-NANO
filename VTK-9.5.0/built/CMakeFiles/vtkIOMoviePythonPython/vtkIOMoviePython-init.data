@@ -1,0 +1,5 @@
+vtkIOMovie
+vtkIOMovieConfigure
+vtkGenericMovieWriter
+DEPENDS
+vtkmodules.vtkCommonExecutionModel

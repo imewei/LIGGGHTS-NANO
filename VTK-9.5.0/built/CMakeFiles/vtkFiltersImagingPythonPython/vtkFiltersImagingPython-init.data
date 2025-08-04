@@ -1,0 +1,8 @@
+vtkFiltersImaging
+vtkComputeHistogram2DOutliers
+vtkExtractHistogram2D
+vtkPairwiseExtractHistogram2D
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonExecutionModel
+vtkmodules.vtkFiltersStatistics

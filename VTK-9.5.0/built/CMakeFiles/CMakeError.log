@@ -1,0 +1,251 @@
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_57975/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_57975.dir/build.make CMakeFiles/cmTC_57975.dir/build
+Building CXX object CMakeFiles/cmTC_57975.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_57975.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_57975.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_57975.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:53:13: error: use of undeclared identifier 'environ'
+   53 |   char* e = environ[0];
+      |             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_57975.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_57975/fast] Error 2
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member failed to compile with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69c69/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_69c69.dir/build.make CMakeFiles/cmTC_69c69.dir/build
+Building CXX object CMakeFiles/cmTC_69c69.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_69c69.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_69c69.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_69c69.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:12:15: error: no member named 'st_mtim' in 'stat'
+   12 |   (void)stat1.st_mtim.tv_sec;
+      |         ~~~~~ ^
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:13:15: error: no member named 'st_mtim' in 'stat'
+   13 |   (void)stat1.st_mtim.tv_nsec;
+      |         ~~~~~ ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_69c69.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_69c69/fast] Error 2
+
+
+
+Checking whether CXX compiler has rlimit64 failed to compile with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_447a8/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_447a8.dir/build.make CMakeFiles/cmTC_447a8.dir/build
+Building CXX object CMakeFiles/cmTC_447a8.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_RLIMIT64  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_447a8.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_447a8.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_447a8.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:75:19: error: variable has incomplete type 'struct rlimit64'
+   75 |   struct rlimit64 rlim;
+      |                   ^
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:75:10: note: forward declaration of 'rlimit64'
+   75 |   struct rlimit64 rlim;
+      |          ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_447a8.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_447a8/fast] Error 2
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8daa8/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8daa8.dir/build.make CMakeFiles/cmTC_8daa8.dir/build
+Building CXX object CMakeFiles/cmTC_8daa8.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  -std=c++17 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_8daa8.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_8daa8.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_8daa8.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:169:12: fatal error: 'ext/stdio_filebuf.h' file not found
+  169 | #  include <ext/stdio_filebuf.h>
+      |            ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8daa8.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_8daa8/fast] Error 2
+
+
+
+Performing Test vtk_undefined_symbols_allowed failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+/opt/homebrew/bin/cmake -S/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed -B/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed --check-build-system CMakeFiles/Makefile.cmake 0
+/opt/homebrew/bin/cmake -E cmake_progress_start /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/CMakeFiles /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed//CMakeFiles/progress.marks
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 all
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/undefined.dir/build.make CMakeFiles/undefined.dir/depend
+cd /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed && /opt/homebrew/bin/cmake -E cmake_depends "Unix Makefiles" /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/CMakeFiles/undefined.dir/DependInfo.cmake
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/undefined.dir/build.make CMakeFiles/undefined.dir/build
+[ 25%] Building C object CMakeFiles/undefined.dir/uses_undefined.c.o
+/usr/bin/cc -Dundefined_EXPORTS  -arch arm64 -fPIC -MD -MT CMakeFiles/undefined.dir/uses_undefined.c.o -MF CMakeFiles/undefined.dir/uses_undefined.c.o.d -o CMakeFiles/undefined.dir/uses_undefined.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/Utilities/Python/CMakeTmp/vtk_undefined_symbols_allowed/uses_undefined.c
+[ 50%] Linking C shared library libundefined.dylib
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/undefined.dir/link.txt --verbose=1
+Undefined symbols for architecture arm64:
+  "_undefined", referenced from:
+      _uses_undefined in uses_undefined.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+/usr/bin/cc  -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libundefined.dylib -install_name @rpath/libundefined.dylib CMakeFiles/undefined.dir/uses_undefined.c.o
+make[2]: *** [libundefined.dylib] Error 1
+make[1]: *** [CMakeFiles/undefined.dir/all] Error 2
+make: *** [all] Error 2
+
+
+Performing Other Test HAVE_OFF64_T failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fa3d6/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fa3d6.dir/build.make CMakeFiles/cmTC_fa3d6.dir/build
+Building C object CMakeFiles/cmTC_fa3d6.dir/HDFTests.c.o
+/usr/bin/cc   -arch arm64 -fPIE   -DHAVE_OFF64_T  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_fa3d6.dir/HDFTests.c.o -MF CMakeFiles/cmTC_fa3d6.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_fa3d6.dir/HDFTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:184:3: error: unknown type name 'off64_t'; did you mean 'off_t'?
+  184 |   off64_t n = 0;
+      |   ^~~~~~~
+      |   off_t
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:31:33: note: 'off_t' declared here
+   31 | typedef __darwin_off_t          off_t;
+      |                                 ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fa3d6.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_fa3d6/fast] Error 2
+
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1e99f/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1e99f.dir/build.make CMakeFiles/cmTC_1e99f.dir/build
+Building C object CMakeFiles/cmTC_1e99f.dir/HDFTests.c.o
+/usr/bin/cc   -arch arm64 -fPIE   -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_1e99f.dir/HDFTests.c.o -MF CMakeFiles/cmTC_1e99f.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_1e99f.dir/HDFTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_1e99f
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e99f.dir/link.txt --verbose=1
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+      <initial-undefines>
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1e99f.dir/HDFTests.c.o -o cmTC_1e99f  -lm
+make[1]: *** [cmTC_1e99f] Error 1
+make: *** [cmTC_1e99f/fast] Error 2
+
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_038b0/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_038b0.dir/build.make CMakeFiles/cmTC_038b0.dir/build
+Building C object CMakeFiles/cmTC_038b0.dir/HDFTests.c.o
+/usr/bin/cc   -arch arm64 -fPIE   -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_038b0.dir/HDFTests.c.o -MF CMakeFiles/cmTC_038b0.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_038b0.dir/HDFTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_038b0
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_038b0.dir/link.txt --verbose=1
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+      <initial-undefines>
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_038b0.dir/HDFTests.c.o -o cmTC_038b0  -lm
+make[1]: *** [cmTC_038b0] Error 1
+make: *** [cmTC_038b0/fast] Error 2
+
+
+Performing Other Test HAVE_SOCKLEN_T failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_59ec3/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_59ec3.dir/build.make CMakeFiles/cmTC_59ec3.dir/build
+Building C object CMakeFiles/cmTC_59ec3.dir/HDFTests.c.o
+/usr/bin/cc   -arch arm64 -fPIE   -DHAVE_SOCKLEN_T  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_59ec3.dir/HDFTests.c.o -MF CMakeFiles/cmTC_59ec3.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_59ec3.dir/HDFTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:160:13: error: use of undeclared identifier 'socklen_t'
+  160 | SIMPLE_TEST(socklen_t foo);
+      |             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_59ec3.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_59ec3/fast] Error 2
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_31f6b/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_31f6b.dir/build.make CMakeFiles/cmTC_31f6b.dir/build
+Building C object CMakeFiles/cmTC_31f6b.dir/ConversionTests.c.o
+/usr/bin/cc   -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_31f6b.dir/ConversionTests.c.o -MF CMakeFiles/cmTC_31f6b.dir/ConversionTests.c.o.d -o CMakeFiles/cmTC_31f6b.dir/ConversionTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_31f6b
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31f6b.dir/link.txt --verbose=1
+/usr/bin/cc   -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_31f6b.dir/ConversionTests.c.o -o cmTC_31f6b
+
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6d7d3/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6d7d3.dir/build.make CMakeFiles/cmTC_6d7d3.dir/build
+Building C object CMakeFiles/cmTC_6d7d3.dir/ConversionTests.c.o
+/usr/bin/cc   -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_6d7d3.dir/ConversionTests.c.o -MF CMakeFiles/cmTC_6d7d3.dir/ConversionTests.c.o.d -o CMakeFiles/cmTC_6d7d3.dir/ConversionTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_6d7d3
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d7d3.dir/link.txt --verbose=1
+/usr/bin/cc   -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6d7d3.dir/ConversionTests.c.o -o cmTC_6d7d3
+
+
+Test H5_DISABLE_SOME_LDOUBLE_CONV Run failed with the following output and exit code:
+ Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ebfc/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0ebfc.dir/build.make CMakeFiles/cmTC_0ebfc.dir/build
+Building C object CMakeFiles/cmTC_0ebfc.dir/ConversionTests.c.o
+/usr/bin/cc   -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_0ebfc.dir/ConversionTests.c.o -MF CMakeFiles/cmTC_0ebfc.dir/ConversionTests.c.o.d -o CMakeFiles/cmTC_0ebfc.dir/ConversionTests.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_0ebfc
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ebfc.dir/link.txt --verbose=1
+/usr/bin/cc   -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0ebfc.dir/ConversionTests.c.o -o cmTC_0ebfc
+
+
+Determining if the HDF5 Multi_Dataset exists failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e45d4/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e45d4.dir/build.make CMakeFiles/cmTC_e45d4.dir/build
+Building C object CMakeFiles/cmTC_e45d4.dir/test_HDF.c.o
+/usr/bin/cc   -std=gnu99 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_e45d4.dir/test_HDF.c.o -MF CMakeFiles/cmTC_e45d4.dir/test_HDF.c.o.d -o CMakeFiles/cmTC_e45d4.dir/test_HDF.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp/test_HDF.c
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: 'hdf5.h' file not found
+    2 |  #include "hdf5.h"
+      |           ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e45d4.dir/test_HDF.c.o] Error 1
+make: *** [cmTC_e45d4/fast] Error 2
+
+
+
+Determining if the HDF5 Collective_metadata exists failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_18773/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_18773.dir/build.make CMakeFiles/cmTC_18773.dir/build
+Building C object CMakeFiles/cmTC_18773.dir/test_HDF.c.o
+/usr/bin/cc   -std=gnu99 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_18773.dir/test_HDF.c.o -MF CMakeFiles/cmTC_18773.dir/test_HDF.c.o.d -o CMakeFiles/cmTC_18773.dir/test_HDF.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp/test_HDF.c
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: 'hdf5.h' file not found
+    2 |  #include "hdf5.h"
+      |           ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_18773.dir/test_HDF.c.o] Error 1
+make: *** [cmTC_18773/fast] Error 2
+
+
+
+Determining if the HDF5 H5Pset_file_space_strategy exists failed with the following output:
+Change Dir: '/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd28f/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fd28f.dir/build.make CMakeFiles/cmTC_fd28f.dir/build
+Building C object CMakeFiles/cmTC_fd28f.dir/test_HDF.c.o
+/usr/bin/cc   -std=gnu99 -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_fd28f.dir/test_HDF.c.o -MF CMakeFiles/cmTC_fd28f.dir/test_HDF.c.o.d -o CMakeFiles/cmTC_fd28f.dir/test_HDF.c.o -c /Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp/test_HDF.c
+/Users/b80985/LIGGGHTS-NANO/VTK-9.5.0/built/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: 'hdf5.h' file not found
+    2 |  #include "hdf5.h"
+      |           ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fd28f.dir/test_HDF.c.o] Error 1
+make: *** [cmTC_fd28f/fast] Error 2
+
+
+

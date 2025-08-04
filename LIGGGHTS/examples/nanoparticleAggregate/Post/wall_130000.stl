@@ -1,0 +1,170 @@
+solid LIGGGHTS_STL_EXPORT
+  facet normal -1 0 0
+    outer loop
+      vertex -8.472e-08 -8.472e-08 1.6944e-08
+      vertex -8.472e-08 8.472e-08 1.6944e-08
+      vertex -8.472e-08 8.472e-08 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -8.472e-08 8.472e-08 0
+      vertex -8.472e-08 -8.472e-08 0
+      vertex -8.472e-08 -8.472e-08 1.6944e-08
+    endloop
+  endfacet
+  facet normal -0 -1 -0
+    outer loop
+      vertex 8.472e-08 -8.472e-08 1.6944e-08
+      vertex -8.472e-08 -8.472e-08 1.6944e-08
+      vertex -8.472e-08 -8.472e-08 0
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -8.472e-08 -8.472e-08 0
+      vertex 8.472e-08 -8.472e-08 0
+      vertex 8.472e-08 -8.472e-08 1.6944e-08
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 8.472e-08 8.472e-08 1.6944e-08
+      vertex 8.472e-08 -8.472e-08 1.6944e-08
+      vertex 8.472e-08 -8.472e-08 0
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 8.472e-08 -8.472e-08 0
+      vertex 8.472e-08 8.472e-08 0
+      vertex 8.472e-08 8.472e-08 1.6944e-08
+    endloop
+  endfacet
+  facet normal -0 1 0
+    outer loop
+      vertex -8.472e-08 8.472e-08 1.6944e-08
+      vertex 8.472e-08 8.472e-08 1.6944e-08
+      vertex 8.472e-08 8.472e-08 0
+    endloop
+  endfacet
+  facet normal 0 1 -0
+    outer loop
+      vertex 8.472e-08 8.472e-08 0
+      vertex -8.472e-08 8.472e-08 0
+      vertex -8.472e-08 8.472e-08 1.6944e-08
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 1.6944e-08
+      vertex -8.472e-08 8.472e-08 1.6944e-08
+      vertex 8.472e-08 8.472e-08 1.6944e-08
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 1.6944e-08
+      vertex 8.472e-08 -8.472e-08 1.6944e-08
+      vertex 8.472e-08 8.472e-08 1.6944e-08
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 0
+      vertex -8.472e-08 8.472e-08 0
+      vertex 8.472e-08 8.472e-08 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 0
+      vertex 8.472e-08 -8.472e-08 0
+      vertex 8.472e-08 8.472e-08 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -8.472e-08 -8.472e-08 7.3414e-08
+      vertex -8.472e-08 8.472e-08 7.3414e-08
+      vertex -8.472e-08 8.472e-08 5.647e-08
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -8.472e-08 8.472e-08 5.647e-08
+      vertex -8.472e-08 -8.472e-08 5.647e-08
+      vertex -8.472e-08 -8.472e-08 7.3414e-08
+    endloop
+  endfacet
+  facet normal -0 -1 -0
+    outer loop
+      vertex 8.472e-08 -8.472e-08 7.3414e-08
+      vertex -8.472e-08 -8.472e-08 7.3414e-08
+      vertex -8.472e-08 -8.472e-08 5.647e-08
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -8.472e-08 -8.472e-08 5.647e-08
+      vertex 8.472e-08 -8.472e-08 5.647e-08
+      vertex 8.472e-08 -8.472e-08 7.3414e-08
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 8.472e-08 8.472e-08 7.3414e-08
+      vertex 8.472e-08 -8.472e-08 7.3414e-08
+      vertex 8.472e-08 -8.472e-08 5.647e-08
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 8.472e-08 -8.472e-08 5.647e-08
+      vertex 8.472e-08 8.472e-08 5.647e-08
+      vertex 8.472e-08 8.472e-08 7.3414e-08
+    endloop
+  endfacet
+  facet normal -0 1 0
+    outer loop
+      vertex -8.472e-08 8.472e-08 7.3414e-08
+      vertex 8.472e-08 8.472e-08 7.3414e-08
+      vertex 8.472e-08 8.472e-08 5.647e-08
+    endloop
+  endfacet
+  facet normal 0 1 -0
+    outer loop
+      vertex 8.472e-08 8.472e-08 5.647e-08
+      vertex -8.472e-08 8.472e-08 5.647e-08
+      vertex -8.472e-08 8.472e-08 7.3414e-08
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 7.3414e-08
+      vertex -8.472e-08 8.472e-08 7.3414e-08
+      vertex 8.472e-08 8.472e-08 7.3414e-08
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 7.3414e-08
+      vertex 8.472e-08 -8.472e-08 7.3414e-08
+      vertex 8.472e-08 8.472e-08 7.3414e-08
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 5.647e-08
+      vertex -8.472e-08 8.472e-08 5.647e-08
+      vertex 8.472e-08 8.472e-08 5.647e-08
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -8.472e-08 -8.472e-08 5.647e-08
+      vertex 8.472e-08 -8.472e-08 5.647e-08
+      vertex 8.472e-08 8.472e-08 5.647e-08
+    endloop
+  endfacet
+endsolid LIGGGHTS_STL_EXPORT

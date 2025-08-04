@@ -1,0 +1,5 @@
+vtkFiltersParallelVerdict
+vtkPCellSizeFilter
+DEPENDS
+vtkmodules.vtkFiltersVerdict
+vtkmodules.vtkParallelCore
