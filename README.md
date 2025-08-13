@@ -1,6 +1,6 @@
 # LIGGGHTS-NANO Fork for Apple M1 (Pro, 14-inch, 2021)
 
-This repository is a fork of [LIGGGHTS-NANO](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC), updated to compile and run on Apple M1 chips (specifically tested on a MacBook Pro, 14-inch, 2021). The fork includes modifications to ensure compatibility with the ARM architecture and provides instructions for setting up the build environment using a Miniforge3 Conda environment.
+This repository is a fork of [LIGGGHTS-NANO](https://github.com/UniHB-IWT/LIGGGHTS-NANO), updated to compile and run on Apple M1 chips (specifically tested on a MacBook Pro, 14-inch, 2021). The fork includes modifications to ensure compatibility with the ARM architecture and provides instructions for setting up the build environment using a Miniforge3 Conda environment.
 
 ## Overview
 
